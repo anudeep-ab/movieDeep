@@ -12,6 +12,7 @@
     "web": "webpack serve --mode=development --config webpack.config.js"
   },
   "dependencies": {
+    "@noriginmedia/norigin-spatial-navigation": "^1.0.5",
     "react": "17.0.2",
     "react-native": "npm:react-native-tvos@0.68.1-1",
     "react-native-web": "^0.18.9"
