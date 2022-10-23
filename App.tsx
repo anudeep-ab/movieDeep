@@ -1,38 +1,21 @@
-import React, {useState} from 'react';
-import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+import React, { FunctionComponent } from 'react';
+import styled, { ThemeProvider } from 'styled-components/native';
+import { theme as AppTheme } from './src/config/theme';
+import { HomeScreen } from './src/screens/home.screen';
 
-const App = () => {
-  const [count, setCount] = useState(0);
+const AppContainer = styled.View`
+  flex: 1;
+  background-color: ${({ theme }) => theme.colors.bg.primary};
+`;
+
+const App: FunctionComponent = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello from {'\n'}React Native Web!</Text>
-      <TouchableOpacity
-        onPress={() => setCount(count + 1)}
-        style={styles.button}>
-        <Text>Click me!</Text>
-      </TouchableOpacity>
-
-      <Text>You clicked {count} times!</Text>
-    </View>
+    <ThemeProvider theme={AppTheme}>
+      <AppContainer>
+        <HomeScreen />
+      </AppContainer>
+    </ThemeProvider>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#C3E8BD',
-    paddingTop: 40,
-    paddingHorizontal: 10,
-  },
-  button: {
-    backgroundColor: '#ADBDFF',
-    padding: 5,
-    marginVertical: 20,
-    alignSelf: 'flex-start',
-  },
-  title: {
-    fontSize: 40,
-  },
-});
 
 export default App;
