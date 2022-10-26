@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		269984920579226908D49904 /* libPods-MovieDeep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2855AB2CCC04BED0978AE /* libPods-MovieDeep.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MovieDeepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MovieDeepTests.m */; };
-		35FF2CBD783F60EC7CC01FBB /* libPods-MovieDeep-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E9AF0B0750A4670C793D81 /* libPods-MovieDeep-tvOS.a */; };
-		5681A88D07F13376854D69AF /* libPods-MovieDeep-MovieDeepTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED78262AF725D38596C8137 /* libPods-MovieDeep-MovieDeepTests.a */; };
+		41BF5F3596F87FEE707DDD11 /* libPods-MovieDeep-MovieDeepTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F21F13455730034D850CD1C /* libPods-MovieDeep-MovieDeepTests.a */; };
+		47EB63F3390701B2260096C6 /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0216F1136BF7C90703C880F /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DE679EC272A1A5F0BE6BBF64 /* libPods-MovieDeep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC4EF6F8B7C49058F31A75B /* libPods-MovieDeep.a */; };
-		E55DF548C7D88AAFC7CFB90B /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7B4337351C1E55E19C9069 /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */; };
+		EE57DEA5314790D63C074D03 /* libPods-MovieDeep-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54FCF2086BA3B4678F8237 /* libPods-MovieDeep-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* MovieDeepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDeepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MovieDeepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDeepTests.m; sourceTree = "<group>"; };
+		015BA46D04C1496C29E63456 /* Pods-MovieDeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep/Pods-MovieDeep.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MovieDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MovieDeep/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.mm; path = MovieDeep/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MovieDeep/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MovieDeep/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MovieDeep/main.m; sourceTree = "<group>"; };
+		224D5D4AEB9A0A36B75746AA /* Pods-MovieDeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep/Pods-MovieDeep.release.xcconfig"; sourceTree = "<group>"; };
+		2C329346E04FD437DBF160C6 /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-MovieDeepTests.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MovieDeep-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MovieDeep-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MovieDeep-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MovieDeep-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		364DC9AB658452EB4F8F5AC7 /* Pods-MovieDeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep/Pods-MovieDeep.release.xcconfig"; sourceTree = "<group>"; };
-		55E9AF0B0750A4670C793D81 /* libPods-MovieDeep-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7B4337351C1E55E19C9069 /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61091CD8C03AE11AF75A4B4A /* Pods-MovieDeep-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		36771B2C8C43AC6099096637 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-MovieDeepTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests.debug.xcconfig"; sourceTree = "<group>"; };
+		388308430DF4BE056B0CEF13 /* Pods-MovieDeep-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3BDF8C4CCF278F944E8C6CBF /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F21F13455730034D850CD1C /* libPods-MovieDeep-MovieDeepTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-MovieDeepTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MovieDeep/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8ED88CC49A023ABA2816426C /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9489D96B02658E17D0AD217E /* Pods-MovieDeep-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		95D7EA285038D17AAD3A246C /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-MovieDeepTests.release.xcconfig"; path = "Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests.release.xcconfig"; sourceTree = "<group>"; };
-		9AC4EF6F8B7C49058F31A75B /* libPods-MovieDeep.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAAFFC6C038112C5C7C1B1B9 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-MovieDeepTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C7DE0A8AB71A031BE6E9C22A /* Pods-MovieDeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep/Pods-MovieDeep.debug.xcconfig"; sourceTree = "<group>"; };
-		CE7786F9DFD4B2D0B376D52F /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC2855AB2CCC04BED0978AE /* libPods-MovieDeep.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0216F1136BF7C90703C880F /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE9A90FED9D09047497AB6D /* Pods-MovieDeep-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E8891750AE2DFBD87A5BDB74 /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA54FCF2086BA3B4678F8237 /* libPods-MovieDeep-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FED78262AF725D38596C8137 /* libPods-MovieDeep-MovieDeepTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDeep-MovieDeepTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5681A88D07F13376854D69AF /* libPods-MovieDeep-MovieDeepTests.a in Frameworks */,
+				41BF5F3596F87FEE707DDD11 /* libPods-MovieDeep-MovieDeepTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE679EC272A1A5F0BE6BBF64 /* libPods-MovieDeep.a in Frameworks */,
+				269984920579226908D49904 /* libPods-MovieDeep.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FF2CBD783F60EC7CC01FBB /* libPods-MovieDeep-tvOS.a in Frameworks */,
+				EE57DEA5314790D63C074D03 /* libPods-MovieDeep-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55DF548C7D88AAFC7CFB90B /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a in Frameworks */,
+				47EB63F3390701B2260096C6 /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9AC4EF6F8B7C49058F31A75B /* libPods-MovieDeep.a */,
-				FED78262AF725D38596C8137 /* libPods-MovieDeep-MovieDeepTests.a */,
-				55E9AF0B0750A4670C793D81 /* libPods-MovieDeep-tvOS.a */,
-				5D7B4337351C1E55E19C9069 /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */,
+				8DC2855AB2CCC04BED0978AE /* libPods-MovieDeep.a */,
+				4F21F13455730034D850CD1C /* libPods-MovieDeep-MovieDeepTests.a */,
+				EA54FCF2086BA3B4678F8237 /* libPods-MovieDeep-tvOS.a */,
+				A0216F1136BF7C90703C880F /* libPods-MovieDeep-tvOS-MovieDeep-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		9B1644CBAE2FABCCC6E29A69 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C7DE0A8AB71A031BE6E9C22A /* Pods-MovieDeep.debug.xcconfig */,
-				364DC9AB658452EB4F8F5AC7 /* Pods-MovieDeep.release.xcconfig */,
-				BAAFFC6C038112C5C7C1B1B9 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */,
-				95D7EA285038D17AAD3A246C /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */,
-				9489D96B02658E17D0AD217E /* Pods-MovieDeep-tvOS.debug.xcconfig */,
-				61091CD8C03AE11AF75A4B4A /* Pods-MovieDeep-tvOS.release.xcconfig */,
-				CE7786F9DFD4B2D0B376D52F /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */,
-				8ED88CC49A023ABA2816426C /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */,
+				015BA46D04C1496C29E63456 /* Pods-MovieDeep.debug.xcconfig */,
+				224D5D4AEB9A0A36B75746AA /* Pods-MovieDeep.release.xcconfig */,
+				36771B2C8C43AC6099096637 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */,
+				2C329346E04FD437DBF160C6 /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */,
+				CCE9A90FED9D09047497AB6D /* Pods-MovieDeep-tvOS.debug.xcconfig */,
+				388308430DF4BE056B0CEF13 /* Pods-MovieDeep-tvOS.release.xcconfig */,
+				E8891750AE2DFBD87A5BDB74 /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */,
+				3BDF8C4CCF278F944E8C6CBF /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,11 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MovieDeepTests" */;
 			buildPhases = (
-				C3FB0901CAC306701C9009E1 /* [CP] Check Pods Manifest.lock */,
+				BC8CB606DF6125BE2BCE6F48 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5E1F82D3BEEAD2D5AB05DEE0 /* [CP] Copy Pods Resources */,
+				D9B6B751E2AEDF3F7AB29F2D /* [CP] Copy Pods Resources */,
+				A7BC8AD5F38E060ECF380790 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,13 +225,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MovieDeep" */;
 			buildPhases = (
-				11FE2D029D36FED4559E345C /* [CP] Check Pods Manifest.lock */,
+				5227897DA0E4608219DEAFFA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A3587CD46370E7B0975F84BF /* [CP] Copy Pods Resources */,
+				0D7507D506130F6246FD97BE /* [CP] Copy Pods Resources */,
+				2D0FE9B0618B7653931FB828 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,13 +247,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MovieDeep-tvOS" */;
 			buildPhases = (
-				50523AD6DB2A293579630229 /* [CP] Check Pods Manifest.lock */,
+				966D472419EA4A89F6874B5E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-				FA8DBD58A364366DCC743193 /* [CP] Copy Pods Resources */,
+				42686649B799B0EA1ADB4648 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,11 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MovieDeep-tvOSTests" */;
 			buildPhases = (
-				91A5392DBA6C659855AE0DE1 /* [CP] Check Pods Manifest.lock */,
+				C021C441AB5F12C78313DC25 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
-				956148BB93299B63D3062706 /* [CP] Copy Pods Resources */,
+				84F93B44286727BF8D357577 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,7 +290,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -370,15 +372,82 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		0D7507D506130F6246FD97BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		11FE2D029D36FED4559E345C /* [CP] Check Pods Manifest.lock */ = {
+		2D0FE9B0618B7653931FB828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42686649B799B0EA1ADB4648 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5227897DA0E4608219DEAFFA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,21 +469,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		84F93B44286727BF8D357577 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		50523AD6DB2A293579630229 /* [CP] Check Pods Manifest.lock */ = {
+		966D472419EA4A89F6874B5E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,80 +508,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E1F82D3BEEAD2D5AB05DEE0 /* [CP] Copy Pods Resources */ = {
+		A7BC8AD5F38E060ECF380790 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91A5392DBA6C659855AE0DE1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		956148BB93299B63D3062706 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3587CD46370E7B0975F84BF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep/Pods-MovieDeep-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3FB0901CAC306701C9009E1 /* [CP] Check Pods Manifest.lock */ = {
+		BC8CB606DF6125BE2BCE6F48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,21 +547,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA8DBD58A364366DCC743193 /* [CP] Copy Pods Resources */ = {
+		C021C441AB5F12C78313DC25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieDeep-tvOS-MovieDeep-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-tvOS/Pods-MovieDeep-tvOS-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B6B751E2AEDF3F7AB29F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieDeep-MovieDeepTests/Pods-MovieDeep-MovieDeepTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -641,7 +679,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAAFFC6C038112C5C7C1B1B9 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */;
+			baseConfigurationReference = 36771B2C8C43AC6099096637 /* Pods-MovieDeep-MovieDeepTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -649,12 +687,8 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MovieDeepTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -668,17 +702,13 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D7EA285038D17AAD3A246C /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */;
+			baseConfigurationReference = 2C329346E04FD437DBF160C6 /* Pods-MovieDeep-MovieDeepTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = MovieDeepTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -692,7 +722,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7DE0A8AB71A031BE6E9C22A /* Pods-MovieDeep.debug.xcconfig */;
+			baseConfigurationReference = 015BA46D04C1496C29E63456 /* Pods-MovieDeep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -703,11 +733,7 @@
 					"COCOAPODS=1",
 				);
 				INFOPLIST_FILE = MovieDeep/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -723,17 +749,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 364DC9AB658452EB4F8F5AC7 /* Pods-MovieDeep.release.xcconfig */;
+			baseConfigurationReference = 224D5D4AEB9A0A36B75746AA /* Pods-MovieDeep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = MovieDeep/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -748,7 +770,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9489D96B02658E17D0AD217E /* Pods-MovieDeep-tvOS.debug.xcconfig */;
+			baseConfigurationReference = CCE9A90FED9D09047497AB6D /* Pods-MovieDeep-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -761,11 +783,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "MovieDeep-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -775,13 +793,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61091CD8C03AE11AF75A4B4A /* Pods-MovieDeep-tvOS.release.xcconfig */;
+			baseConfigurationReference = 388308430DF4BE056B0CEF13 /* Pods-MovieDeep-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -794,11 +812,7 @@
 				ENABLE_BITCODE = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "MovieDeep-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -808,13 +822,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE7786F9DFD4B2D0B376D52F /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E8891750AE2DFBD87A5BDB74 /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -825,11 +839,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "MovieDeep-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -839,13 +849,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieDeep-tvOS.app/MovieDeep-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ED88CC49A023ABA2816426C /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3BDF8C4CCF278F944E8C6CBF /* Pods-MovieDeep-tvOS-MovieDeep-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -856,11 +866,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "MovieDeep-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -870,7 +876,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieDeep-tvOS.app/MovieDeep-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
 			};
 			name = Release;
 		};
@@ -897,7 +903,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -907,7 +912,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -923,11 +928,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					/usr/lib/swift,
-					"$(inherited)",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -935,6 +937,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -962,7 +965,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -972,7 +974,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -981,17 +983,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					/usr/lib/swift,
-					"$(inherited)",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/lib/swift",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
