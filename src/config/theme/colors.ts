@@ -49,7 +49,7 @@ export const colors: Colors = {
   },
   ui: {
     primary: '#db0000',
-    secondary: '#757575',
+    secondary: '#F1F1F1',
     tertiary: '#F1F1F1',
     quaternary: '#FFFFFF',
     disabled: '#DEDEDE',
@@ -57,7 +57,9 @@ export const colors: Colors = {
     success: '#138000',
   },
   bg: {
-    primary: '#141414',
+    // primary: '#141414',
+    primary: '#000000',
+    // primary: '#F1F1F1',
     secondary: '#F1F1F1',
   },
   fg: {
