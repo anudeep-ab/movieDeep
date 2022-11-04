@@ -1,13 +1,14 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components/native';
 import { ITextProps } from './types';
+import { scalableSize } from '../../utils/scalable-size.util';
 
 const StyledText = styled.Text`
-  font-size: ${({ theme }) => theme.Sizes._18PX};
+  font-size: ${({ theme }) => scalableSize(theme.Sizes._18)};
   font-family: ${({ theme }) => theme.font.appFontFamily};
-  line-height: 25px;
+  line-height: ${({ theme }) => scalableSize(theme.Sizes._25)};
   color: ${({ theme }) => theme.colors.text.primary};
-  margin-vertical: 8px;
+  margin-vertical: ${({ theme }) => scalableSize(theme.Sizes._8)};
 `;
 
 export const SmallText: FunctionComponent<ITextProps> = ({

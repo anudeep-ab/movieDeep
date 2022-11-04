@@ -5,10 +5,11 @@ import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
 import { LargeText, SmallText } from '../components/texts';
 import { SmallButton } from '../components/buttons';
+import { scalableSize } from '../utils/scalable-size.util';
 
 console.log(Platform.OS);
 
-const { height } = Dimensions.get('screen');
+const { height } = Dimensions.get('window');
 const colors = [
   'rgba(0,0,0,1)',
   'rgba(0,0,0,1)',
@@ -20,20 +21,20 @@ const colors = [
 const ShowCaseContainer = styled.View``;
 
 const ImageBackground = styled.ImageBackground`
-  height: ${height / 1.8}px;
+  height: ${height / 1.35}px;
 `;
 
 const LinearGradientContainer = styled<any>(LinearGradient)`
   flex: 1;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: ${scalableSize(15)};
+  padding-right: ${scalableSize(15)};
   justify-content: flex-end;
 `;
 
 const MovieDetailContainer = styled.View`
-  width: 600px;
-  margin-bottom: 18px;
-  padding-left: 40px;
+  width: ${scalableSize(600)};
+  margin-bottom: ${scalableSize(18)};
+  padding-left: ${scalableSize(40)};
 `;
 
 const imageUrl = {
