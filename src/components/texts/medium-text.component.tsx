@@ -4,7 +4,7 @@ import { ITextProps } from './types';
 import { scalableSize } from '../../utils/scalable-size.util';
 
 const StyledText = styled.Text`
-  font-size: ${({ theme }) => scalableSize(theme.Sizes._24)};
+  font-size: ${({ theme }) => scalableSize(theme.Sizes._22)};
   font-family: ${({ theme }) => theme.font.appFontFamily};
   line-height: ${({ theme }) => scalableSize(theme.Sizes._25)};
   color: ${({ theme }) => theme.colors.text.primary};
