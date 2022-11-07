@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { CardList } from '../components/card-list.component';
+import { Menu } from './menu.screen';
 import { ShowCaseScreen } from './show-case.platform';
 
 const data = [
@@ -44,21 +45,7 @@ const data = [
 export const HomeScreen = () => {
   return (
     <SafeAreaView>
-      <ShowCaseScreen />
-      <CardList
-        data={data}
-        title="Recently Added"
-        onPress={(item) => {
-          console.log(item);
-        }}
-      />
-      <CardList
-        data={data}
-        title="Recently Added 2"
-        onPress={(item) => {
-          console.log(item);
-        }}
-      />
+      <Menu />
     </SafeAreaView>
   );
 };

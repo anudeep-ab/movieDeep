@@ -1,8 +1,16 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { Platform, ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components/native';
 import { theme as AppTheme } from './src/config/theme';
 import { HomeScreen } from './src/screens/home.screen';
+
+import { init } from '@noriginmedia/norigin-spatial-navigation';
+
+init({
+  debug: true,
+  // visualDebug: true,
+  nativeMode: Platform.OS !== 'web',
+});
 
 const AppContainer = styled.View`
   flex: 1;
