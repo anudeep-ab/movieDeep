@@ -14,13 +14,11 @@ const StyledButton = styled.TouchableOpacity`
 
 export const LargeButton: FunctionComponent<ButtonProps> = ({
   children,
-  style,
-  textStyle,
   ...otherProps
 }) => {
   return (
-    <StyledButton style={style} {...otherProps}>
-      <LargeText style={textStyle}>{children}</LargeText>
+    <StyledButton {...otherProps}>
+      <LargeText>{children}</LargeText>
     </StyledButton>
   );
 };
