@@ -1,60 +1,45 @@
-import React, { FunctionComponent, ReactNode, useEffect } from 'react';
-import styled from 'styled-components/native';
-import { Dimensions, TouchableHighlightProps } from 'react-native';
-import {
-  useFocusable,
-  FocusContext,
-} from '@noriginmedia/norigin-spatial-navigation';
-import { SmallText } from '../components/texts';
-
-const { width, height } = Dimensions.get('window');
-
-const MENU_ITEMS = [1, 2, 3, 4, 5];
-
-interface MenuItemProps extends TouchableHighlightProps {
-  children: ReactNode;
-}
-
-export const MenuItem: FunctionComponent<MenuItemProps> = ({ children }) => {
-  const { ref, focused, focusSelf } = useFocusable();
-
-  console.log('focused', focused);
-  const StyledMenuItem = styled.TouchableHighlight`
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    border-width: ${focused && '2px'};
-    border-color: ${focused && 'orange'};
-  `;
-
-  return (
-    <StyledMenuItem ref={ref} onFocus={focusSelf} hasTVPreferredFocus={true}>
-      <SmallText> {children}</SmallText>
-    </StyledMenuItem>
-  );
-};
+import React, { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { MenuItem } from '../components/menu-item.component';
 
 export const Menu = () => {
-  const { ref, focusKey, focusSelf } = useFocusable();
-
-  //   useEffect(() => {
-  //     focusSelf();
-  //   }, [focusSelf]);
-
-  const StyledMenu = styled.View`
-    width: ${width / 6};
-    height: ${height};
-    border-width: 1px;
-    border-color: yellow;
-  `;
+  const [focus, setFocus] = useState(false);
 
   return (
-    <FocusContext.Provider value={focusKey}>
-      <StyledMenu ref={ref}>
-        {MENU_ITEMS.map((item) => (
-          <MenuItem key={item}>{item}</MenuItem>
-        ))}
-      </StyledMenu>
-    </FocusContext.Provider>
+    <View style={[styles.wrapper, focus ? styles.wrapperFocused : null]}>
+      <View style={styles.circle} />
+      <MenuItem setMenuFocus={setFocus} />
+      <MenuItem setMenuFocus={setFocus} />
+      <MenuItem setMenuFocus={setFocus} />
+      <MenuItem setMenuFocus={setFocus} />
+      <MenuItem setMenuFocus={setFocus} />
+      <MenuItem setMenuFocus={setFocus} />
+    </View>
   );
 };
+
+const styles = StyleSheet.create({
+  wrapper: {
+    backgroundColor: 'rgba(0, 0, 0, 0.75)',
+    width: 100,
+    height: '100%',
+    position: 'absolute',
+    top: 0,
+    zIndex: 1,
+    left: -200,
+    transform: [{ translateX: 200 }],
+  },
+  wrapperFocused: {
+    width: 200,
+  },
+  circle: {
+    backgroundColor: '#808080',
+    width: 50,
+    height: 50,
+    top: 30,
+    left: '50%',
+    transform: [{ translateX: -25 }],
+    borderRadius: 30,
+    marginBottom: 110,
+  },
+});

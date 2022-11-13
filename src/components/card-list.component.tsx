@@ -1,46 +1,42 @@
 import React, { FunctionComponent } from 'react';
-import styled from 'styled-components/native';
-import { screenSizeDetector } from '../utils/screen-size.util';
+import { ScrollView, StyleSheet } from 'react-native';
 import { Card } from './card.component';
 import { MediumText } from './texts';
+// import styled from 'styled-components/native';
+// import { screenSizeDetector } from '../utils/screen-size.util';
 
-export interface FlatList {
+export interface CardListProps {
   title: string;
-  onPress: (item: any) => void;
+  // onPress: (item: any) => void;
   data: any[];
+  rowNumber?: number;
 }
 
-const StyledFlatList = styled.FlatList``;
-
-const CardListContainer = styled.View`
-  margin-top: 0;
-  padding-left: ${screenSizeDetector() === 'large' ? '45px' : '15px'};
-`;
-
-const CardListHeader = styled.View``;
-
-export const CardList: FunctionComponent<FlatList> = ({
+export const CardList: FunctionComponent<CardListProps> = ({
   title,
   data,
-  onPress,
+  // onPress,
+  rowNumber,
 }) => {
   return (
-    <CardListContainer>
-      <CardListHeader>
-        <MediumText>{title}</MediumText>
-      </CardListHeader>
-      <StyledFlatList
-        data={data}
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
-        renderItem={({ item }: any) => (
+    <>
+      <MediumText>{title}</MediumText>
+      <ScrollView horizontal style={styles.row}>
+        {data.map((item: { name: string; poster: string }, i: number) => (
           <Card
+            key={i}
+            title={item.name}
             image={item.poster}
-            title={item.title}
-            onPress={() => onPress(item)}
+            hasTVPreferredFocus={rowNumber === 0 && i === 0}
+            blockFocusRight={i === data.length - 1}
           />
-        )}
-      />
-    </CardListContainer>
+        ))}
+      </ScrollView>
+    </>
   );
 };
+const styles = StyleSheet.create({
+  row: {
+    marginBottom: 50,
+  },
+});
