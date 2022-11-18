@@ -1,21 +1,18 @@
 import React, { FunctionComponent, useCallback, useState } from 'react';
-import { LargeText, MediumText, SmallText } from '../texts';
 import { ButtonProps } from './types';
 import { scalableSize } from '../../utils/scalable-size.util';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import { colors } from '../../config/theme/colors';
 import { Sizes } from '../../config/theme/sizes';
+import { Text } from '../texts';
 
 const dynamicButtonStyles = (
-  smallbtn: boolean | undefined,
   mediumbtn: boolean | undefined,
   largebtn: boolean | undefined,
 ): { width: number; borderRadius: number } => {
   let width = scalableSize(Sizes._100, true);
   let borderRadius = scalableSize(Sizes._4, true);
-  if (smallbtn) {
-    return { width, borderRadius };
-  } else if (mediumbtn) {
+  if (mediumbtn) {
     width = scalableSize(Sizes._200, true);
   } else if (largebtn) {
     width = scalableSize(Sizes._300, true);
@@ -28,7 +25,6 @@ export const Button: FunctionComponent<ButtonProps> = ({
   style,
   textStyle,
   hasTVPreferredFocus,
-  small,
   medium,
   large,
   ...otherProps
@@ -51,24 +47,32 @@ export const Button: FunctionComponent<ButtonProps> = ({
       style={[
         style,
         styles.button,
-        dynamicButtonStyles(small, medium, large),
+        dynamicButtonStyles(medium, large),
         focus ? styles.buttonFocused : null,
       ]}>
-      {small && <SmallText style={textStyle}>{children}</SmallText>}
-      {medium && <MediumText style={textStyle}>{children}</MediumText>}
-      {large && <LargeText style={textStyle}>{children}</LargeText>}
+      {medium && (
+        <Text medium style={textStyle}>
+          {children}
+        </Text>
+      )}
+      {large && (
+        <Text large style={textStyle}>
+          {children}
+        </Text>
+      )}
+      {!medium && !large && <Text style={textStyle}>{children}</Text>}
     </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
   button: {
-    width: 100,
     backgroundColor: colors.ui.primary,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 4,
     borderColor: 'transparent',
+    borderWidth: 2,
   },
   buttonFocused: {
     borderColor: colors.bg.secondary,

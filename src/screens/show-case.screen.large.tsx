@@ -51,14 +51,14 @@ export const ShowCaseScreenLarge = () => {
           colors={colors}>
           <MovieDetailContainer>
             <Text large>Ninnu Kori</Text>
-            <Text small>
+            <Text>
               In 2004, a brutal predator was lynched in a courtroom. This is the
               story of the community he terrorized — and the vengeance they
               unleashed.In 2004, a brutal predator was lynched in a courtroom.
               This is the story of the community he terrorized — and the
               vengeance they unleashed.
             </Text>
-            <Button small>Play</Button>
+            <Button>Play</Button>
           </MovieDetailContainer>
         </LinearGradientContainer>
       </ImageBackground>

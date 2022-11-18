@@ -11,7 +11,6 @@ export interface ButtonProps extends TouchableOpacityProps {
   textStyle?: StyleProp<TextStyle>;
   style?: StyleProp<ViewStyle>;
   hasTVPreferredFocus?: boolean;
-  small?: boolean;
   medium?: boolean;
   large?: boolean;
 }

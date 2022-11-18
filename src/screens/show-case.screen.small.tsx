@@ -63,12 +63,12 @@ export const ShowCaseScreenSmall = () => {
           colors={colors}>
           <MovieContainer>
             <MovieTitleContainer>
-              <Text small>Ninnu Kori</Text>
+              <Text>Ninnu Kori</Text>
             </MovieTitleContainer>
             <MovieDetailContainer>
-              <Text small>Thriller</Text>
-              <Button small>Play</Button>
-              <Text small>2020</Text>
+              <Text>Thriller</Text>
+              <Button>Play</Button>
+              <Text>2020</Text>
             </MovieDetailContainer>
           </MovieContainer>
         </LinearGradientContainer>

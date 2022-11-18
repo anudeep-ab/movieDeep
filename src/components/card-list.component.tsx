@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components/native';
 import { screenSizeDetector } from '../utils/screen-size.util';
 import { Card } from './card.component';
-import { MediumText } from './texts';
+import { Text } from './texts';
 
 export interface FlatList {
   title: string;
@@ -27,7 +27,7 @@ export const CardList: FunctionComponent<FlatList> = ({
   return (
     <CardListContainer>
       <CardListHeader>
-        <MediumText>{title}</MediumText>
+        <Text medium>{title}</Text>
       </CardListHeader>
       <StyledFlatList
         data={data}

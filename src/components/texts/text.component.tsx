@@ -4,11 +4,9 @@ import { ITextProps } from './types';
 import { scalableSize } from '../../utils/scalable-size.util';
 
 const StyledText = styled.Text<ITextProps>`
-  font-size: ${({ theme, small, medium, large }) => {
-    let size = theme.Sizes._18;
-    if (small) {
-      size = theme.Sizes._18;
-    } else if (medium) {
+  font-size: ${({ theme, medium, large }) => {
+    let size: number = theme.Sizes._18;
+    if (medium) {
       size = theme.Sizes._22;
     } else if (large) {
       size = theme.Sizes._32;

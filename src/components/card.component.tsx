@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { TouchableOpacityProps } from 'react-native';
 import styled from 'styled-components/native';
-import { SmallText } from './texts';
+import { Text } from './texts';
 
 interface CardProps extends TouchableOpacityProps {
   image: string;
@@ -26,7 +26,7 @@ export const Card: FunctionComponent<CardProps> = ({ style, image, title }) => {
     <TouchableOpacity activeOpacity={0.6} underlayColor="#fff">
       <StyledCard style={style}>
         <StyledImage source={{ uri: image }} />
-        <SmallText>{title}</SmallText>
+        <Text>{title}</Text>
       </StyledCard>
     </TouchableOpacity>
   );
