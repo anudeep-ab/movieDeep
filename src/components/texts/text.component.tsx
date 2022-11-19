@@ -31,7 +31,7 @@ export const Text: FunctionComponent<ITextProps> = ({
   ...otherProps
 }) => {
   return (
-    <StyledText style={style} {...otherProps}>
+    <StyledText style={style} {...otherProps} accessible={false}>
       {children}
     </StyledText>
   );

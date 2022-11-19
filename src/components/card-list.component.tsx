@@ -27,9 +27,7 @@ export const CardList: FunctionComponent<FlatList> = ({
   return (
     <CardListContainer>
       <CardListHeader>
-        <Text medium accessible={false}>
-          {title}
-        </Text>
+        <Text medium>{title}</Text>
       </CardListHeader>
       <StyledFlatList
         data={data}
