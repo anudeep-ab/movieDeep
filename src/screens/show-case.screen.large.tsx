@@ -3,9 +3,9 @@ import { Dimensions } from 'react-native';
 import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
-import { LargeText, SmallText } from '../components/texts';
-import { SmallButton } from '../components/buttons';
+import { Button } from '../components/buttons';
 import { scalableSize } from '../utils/scalable-size.util';
+import { Text } from '../components/texts';
 
 console.log(Platform.OS);
 
@@ -26,15 +26,15 @@ const ImageBackground = styled.ImageBackground`
 
 const LinearGradientContainer = styled<any>(LinearGradient)`
   flex: 1;
-  padding-left: ${scalableSize(15)};
-  padding-right: ${scalableSize(15)};
+  padding-left: ${scalableSize(15, false)};
+  padding-right: ${scalableSize(15, false)};
   justify-content: flex-end;
 `;
 
 const MovieDetailContainer = styled.View`
-  width: ${scalableSize(600)};
-  margin-bottom: ${scalableSize(18)};
-  padding-left: ${scalableSize(40)};
+  width: ${scalableSize(600, false)};
+  margin-bottom: ${scalableSize(18, false)};
+  padding-left: ${scalableSize(40, false)};
 `;
 
 const imageUrl = {
@@ -50,15 +50,15 @@ export const ShowCaseScreenLarge = () => {
           end={{ x: 1, y: 0 }}
           colors={colors}>
           <MovieDetailContainer>
-            <LargeText>Ninnu Kori</LargeText>
-            <SmallText>
+            <Text large>Ninnu Kori</Text>
+            <Text>
               In 2004, a brutal predator was lynched in a courtroom. This is the
               story of the community he terrorized — and the vengeance they
               unleashed.In 2004, a brutal predator was lynched in a courtroom.
               This is the story of the community he terrorized — and the
               vengeance they unleashed.
-            </SmallText>
-            <SmallButton>Play</SmallButton>
+            </Text>
+            <Button>Play</Button>
           </MovieDetailContainer>
         </LinearGradientContainer>
       </ImageBackground>

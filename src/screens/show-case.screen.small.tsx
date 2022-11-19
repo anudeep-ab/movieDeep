@@ -3,8 +3,8 @@ import { Dimensions } from 'react-native';
 import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
-import { SmallText } from '../components/texts';
-import { SmallButton } from '../components/buttons/small-button.component';
+import { Text } from '../components/texts';
+import { Button } from '../components/buttons/button.component';
 
 console.log(Platform.OS);
 
@@ -63,12 +63,12 @@ export const ShowCaseScreenSmall = () => {
           colors={colors}>
           <MovieContainer>
             <MovieTitleContainer>
-              <SmallText>Ninnu Kori</SmallText>
+              <Text>Ninnu Kori</Text>
             </MovieTitleContainer>
             <MovieDetailContainer>
-              <SmallText>Thriller</SmallText>
-              <SmallButton>Play</SmallButton>
-              <SmallText>2020</SmallText>
+              <Text>Thriller</Text>
+              <Button>Play</Button>
+              <Text>2020</Text>
             </MovieDetailContainer>
           </MovieContainer>
         </LinearGradientContainer>
