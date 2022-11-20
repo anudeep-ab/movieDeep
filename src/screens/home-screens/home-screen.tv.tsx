@@ -42,6 +42,21 @@ const data = [
     poster:
       'https://res.cloudinary.com/moviedeeptest/image/upload/v1665975678/khaidi_poster.jpg',
   },
+  {
+    title: 'Khaidi 8',
+    poster:
+      'https://res.cloudinary.com/moviedeeptest/image/upload/v1665975678/khaidi_poster.jpg',
+  },
+  {
+    title: 'Khaidi 9',
+    poster:
+      'https://res.cloudinary.com/moviedeeptest/image/upload/v1665975678/khaidi_poster.jpg',
+  },
+  {
+    title: 'Khaidi 10',
+    poster:
+      'https://res.cloudinary.com/moviedeeptest/image/upload/v1665975678/khaidi_poster.jpg',
+  },
 ];
 
 const HomeContainer = styled.View`
@@ -50,8 +65,8 @@ const HomeContainer = styled.View`
 `;
 
 const ScrollViewContainer = styled.View`
-  position: 'absolute';
-  height: '100%';
+  position: absolute;
+  height: 100%;
   left: ${scalableSize(100, false)};
   top: 100%;
 `;
@@ -82,6 +97,13 @@ export const HomeScreenTV = () => {
               <CardList
                 data={data}
                 title="Recently Added 2"
+                onPress={(item) => {
+                  console.log(item);
+                }}
+              />
+              <CardList
+                data={data}
+                title="Recently Added 3"
                 onPress={(item) => {
                   console.log(item);
                 }}

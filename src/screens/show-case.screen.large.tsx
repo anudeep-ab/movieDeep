@@ -21,7 +21,7 @@ const colors = [
 const ShowCaseContainer = styled.View``;
 
 const ImageBackground = styled.ImageBackground`
-  height: ${height / 1.8}px;
+  height: ${height / 1.7}px;
 `;
 
 const LinearGradientContainer = styled<any>(LinearGradient)`
@@ -50,7 +50,7 @@ export const ShowCaseScreenLarge = () => {
           end={{ x: 1, y: 0 }}
           colors={colors}>
           <MovieDetailContainer>
-            <Text large>Ninnu Kori</Text>
+            <Text large>Khaidi</Text>
             <Text>
               In 2004, a brutal predator was lynched in a courtroom. This is the
               story of the community he terrorized — and the vengeance they

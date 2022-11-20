@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   menuItemFocused: {
-    borderColor: colors.bg.secondary,
+    backgroundColor: colors.bg.secondary,
   },
 });
