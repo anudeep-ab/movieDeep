@@ -32,7 +32,9 @@ export const CardList: FunctionComponent<FlatList> = ({
       <StyledFlatList
         data={data}
         horizontal={true}
+        nestedScrollEnabled
         showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }: any) => (
           <Card
             image={item.poster}

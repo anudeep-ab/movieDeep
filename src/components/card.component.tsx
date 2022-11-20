@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 import styled from 'styled-components/native';
 import { colors } from '../config/theme/colors';
+import { scalableSize } from '../utils/scalable-size.util';
 import { Text } from './texts';
 
 interface CardProps extends TouchableOpacityProps {
@@ -19,13 +20,10 @@ interface CardProps extends TouchableOpacityProps {
 const StyledCard = styled.View`
   flex: 1;
   margin: 5px;
-  min-width: 130px;
-  min-height: 175px;
 `;
 const StyledImage = styled.Image`
-  width: 130px;
-  height: 175px;
-  border-radius: 10px;
+  width: ${scalableSize(150, false)};
+  height: ${scalableSize(185, false)};
 `;
 
 const findCardNodeHandle = (ref: any): number | undefined => {
@@ -83,6 +81,8 @@ const styles = StyleSheet.create({
   cardWrapper: {
     borderColor: 'transparent',
     borderWidth: 2,
+    minWidth: scalableSize(150, true),
+    minHeight: scalableSize(235, true),
   },
   cardFocused: {
     borderColor: colors.bg.secondary,

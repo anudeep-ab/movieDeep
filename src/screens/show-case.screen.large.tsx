@@ -21,7 +21,7 @@ const colors = [
 const ShowCaseContainer = styled.View``;
 
 const ImageBackground = styled.ImageBackground`
-  height: ${height / 1.35}px;
+  height: ${height / 1.8}px;
 `;
 
 const LinearGradientContainer = styled<any>(LinearGradient)`
