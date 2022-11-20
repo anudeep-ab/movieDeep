@@ -13,7 +13,8 @@ const { height } = Dimensions.get('window');
 const colors = [
   'rgba(0,0,0,1)',
   'rgba(0,0,0,1)',
-  'rgba(0,0,0,0.8)',
+  'rgba(0,0,0,1)',
+  'rgba(0,0,0,0.5)',
   'rgba(0,0,0,0.3)',
   'transparent',
 ];
