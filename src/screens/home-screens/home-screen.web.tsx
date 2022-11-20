@@ -1,7 +1,10 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { CardList } from '../components/card-list.component';
-import { ShowCaseScreen } from './show-case.platform';
+import styled from 'styled-components/native';
+import { CardList } from '../../components/card-list.component';
+import { MenuScreen } from '../menu.screen';
+import { ShowCaseScreen } from '../show-case.platform';
+import { scalableSize } from '../../utils/scalable-size.util';
 
 const data = [
   {
@@ -41,24 +44,32 @@ const data = [
   },
 ];
 
-export const HomeScreen = () => {
+const HomeContainer = styled.View`
+  padding-left: ${scalableSize(100, false)}
+  background-color: ${({ theme }) => theme.colors.bg.primary};
+`;
+
+export const HomeScreenWeb = () => {
   return (
     <SafeAreaView>
-      <ShowCaseScreen />
-      <CardList
-        data={data}
-        title="Recently Added"
-        onPress={(item) => {
-          console.log(item);
-        }}
-      />
-      <CardList
-        data={data}
-        title="Recently Added 2"
-        onPress={(item) => {
-          console.log(item);
-        }}
-      />
+      <MenuScreen />
+      <HomeContainer>
+        <ShowCaseScreen />
+        <CardList
+          data={data}
+          title="Recently Added"
+          onPress={(item) => {
+            console.log(item);
+          }}
+        />
+        <CardList
+          data={data}
+          title="Recently Added 2"
+          onPress={(item) => {
+            console.log(item);
+          }}
+        />
+      </HomeContainer>
     </SafeAreaView>
   );
 };

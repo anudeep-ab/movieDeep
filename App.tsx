@@ -1,8 +1,7 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components/native';
 import { theme as AppTheme } from './src/config/theme';
-import { HomeScreen } from './src/screens/home.screen';
+import { HomeScreen } from './src/screens/home-screens';
 
 const AppContainer = styled.View`
   flex: 1;
@@ -13,9 +12,7 @@ const App = () => {
   return (
     <ThemeProvider theme={AppTheme}>
       <AppContainer>
-        <ScrollView>
-          <HomeScreen />
-        </ScrollView>
+        <HomeScreen />
       </AppContainer>
     </ThemeProvider>
   );
