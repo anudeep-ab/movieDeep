@@ -46,7 +46,7 @@ const HomeContainer = styled.View`
   background-color: ${({ theme }) => theme.colors.bg.primary};
 `;
 
-export const HomeScreenMobile = () => {
+export const HomeScreenMobile = ({ navigation }: any) => {
   return (
     <SafeAreaView>
       <ScrollView
@@ -60,6 +60,7 @@ export const HomeScreenMobile = () => {
             title="Recently Added"
             onPress={(item) => {
               console.log(item);
+              navigation.navigate('detail');
             }}
           />
           <CardList

@@ -15,6 +15,7 @@ interface CardProps extends TouchableOpacityProps {
   title: string;
   hasTVPreferredFocus?: boolean;
   blockFocusRight?: boolean;
+  onPress?: any;
 }
 
 const StyledCard = styled.View`
@@ -43,6 +44,7 @@ export const Card: FunctionComponent<CardProps> = ({
   title,
   hasTVPreferredFocus,
   blockFocusRight,
+  onPress,
 }) => {
   const [focus, setFocus] = useState(false);
   const touchableRef = useRef(null);
@@ -64,6 +66,7 @@ export const Card: FunctionComponent<CardProps> = ({
     <TouchableOpacity
       onFocus={onFocus}
       onBlur={onBlur}
+      onPress={onPress}
       ref={onRef}
       hasTVPreferredFocus={hasTVPreferredFocus}
       nextFocusRight={

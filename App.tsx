@@ -1,7 +1,9 @@
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 import styled, { ThemeProvider } from 'styled-components/native';
 import { theme as AppTheme } from './src/config/theme';
-import { HomeScreen } from './src/screens/home-screens';
+import { navigationTheme } from './src/navigation/navigationTheme';
+import { HomeNavigator } from './src/navigation/HomeNavigator';
 
 const AppContainer = styled.View`
   flex: 1;
@@ -10,11 +12,13 @@ const AppContainer = styled.View`
 
 const App = () => {
   return (
-    <ThemeProvider theme={AppTheme}>
-      <AppContainer>
-        <HomeScreen />
-      </AppContainer>
-    </ThemeProvider>
+    <NavigationContainer theme={navigationTheme}>
+      <ThemeProvider theme={AppTheme}>
+        <AppContainer>
+          <HomeNavigator />
+        </AppContainer>
+      </ThemeProvider>
+    </NavigationContainer>
   );
 };
 
