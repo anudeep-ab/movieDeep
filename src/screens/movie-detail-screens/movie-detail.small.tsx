@@ -5,8 +5,8 @@ import { Dimensions } from 'react-native';
 import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
-import { Text } from '../../../components/texts';
-import { Button } from '../../../components/buttons/button.component';
+import { Text } from '../../components/texts';
+import { Button } from '../../components/buttons/button.component';
 
 console.log(Platform.OS);
 

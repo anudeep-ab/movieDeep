@@ -4,9 +4,9 @@ import React from 'react';
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
-import { Button } from '../../../components/buttons';
-import { scalableSize } from '../../../utils/scalable-size.util';
-import { Text } from '../../../components/texts';
+import { Button } from '../../components/buttons';
+import { scalableSize } from '../../utils/scalable-size.util';
+import { Text } from '../../components/texts';
 
 const { height } = Dimensions.get('window');
 const colors = [
