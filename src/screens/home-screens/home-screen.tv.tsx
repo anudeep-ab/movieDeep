@@ -75,7 +75,7 @@ const CardListContainer = styled.View`
   height: 800px;
 `;
 
-export const HomeScreenTV = () => {
+export const HomeScreenTV = ({ navigation }: any) => {
   return (
     <SafeAreaView>
       <MenuScreen />
@@ -92,6 +92,7 @@ export const HomeScreenTV = () => {
                 title="Recently Added"
                 onPress={(item) => {
                   console.log(item);
+                  navigation.navigate('detail');
                 }}
               />
               <CardList
@@ -99,6 +100,7 @@ export const HomeScreenTV = () => {
                 title="Recently Added 2"
                 onPress={(item) => {
                   console.log(item);
+                  navigation.navigate('detail');
                 }}
               />
               <CardList

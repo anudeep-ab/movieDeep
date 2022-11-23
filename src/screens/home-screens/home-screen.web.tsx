@@ -49,7 +49,7 @@ const HomeContainer = styled.View`
   background-color: ${({ theme }) => theme.colors.bg.primary};
 `;
 
-export const HomeScreenWeb = () => {
+export const HomeScreenWeb = ({ navigation }: any) => {
   return (
     <SafeAreaView>
       <MenuScreen />
@@ -60,6 +60,7 @@ export const HomeScreenWeb = () => {
           title="Recently Added"
           onPress={(item) => {
             console.log(item);
+            navigation.navigate('detail');
           }}
         />
         <CardList
@@ -67,6 +68,7 @@ export const HomeScreenWeb = () => {
           title="Recently Added 2"
           onPress={(item) => {
             console.log(item);
+            navigation.navigate('detail');
           }}
         />
       </HomeContainer>

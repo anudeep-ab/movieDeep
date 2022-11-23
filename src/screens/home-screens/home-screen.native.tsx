@@ -68,6 +68,7 @@ export const HomeScreenMobile = ({ navigation }: any) => {
             title="Recently Added 2"
             onPress={(item) => {
               console.log(item);
+              navigation.navigate('detail');
             }}
           />
         </HomeContainer>
